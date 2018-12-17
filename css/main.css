@@ -1,0 +1,49 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: sans-serif;
+}
+
+input {
+  font-family: sans-serif;
+  border-radius: 8px;
+  border: 4px solid #888888;
+  size: 5;
+  padding: 0.2em;
+  margin: 0 0.5em;
+  font-size: 2em;
+  width: 2.5em;
+  height: 0.9em;
+  text-align: left;
+  /*
+  I could have the number in the input center, but I prefer the functionality of 
+  having the spinners on one side. It looks better to align left than to have it
+  slightly off-center with the center directive.
+  */
+}
+
+button {
+  font-family: sans-serif;
+  border: 2px solid #888888;
+  border-radius: 8px;
+  background-color: white;
+  color: #888888;
+  margin: 0;
+  font-size: 2em;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+button:hover {
+  background-color: #888888;
+  color: white;
+}
+
+.red {
+  color: red;
+}
